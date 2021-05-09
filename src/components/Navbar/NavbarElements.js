@@ -3,8 +3,9 @@ import { Link } from 'react-scroll'
 
 
 export const Nav = styled.div`
-    background: #000;
-    height: 110px;
+    background: #192735;
+    height: 80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
