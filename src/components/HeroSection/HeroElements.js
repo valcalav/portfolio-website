@@ -52,11 +52,10 @@ export const OutlinedTitle = styled.h1`
 `
 
 export const Subtitle = styled.h2`
-    margin-top: 24px;
+    margin-top: 20px;
     color: #fff;
     font-size: 50px;
-    /* text-align: center; */
-    max-width: 660px;
+    max-width: 900px;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: .8px;

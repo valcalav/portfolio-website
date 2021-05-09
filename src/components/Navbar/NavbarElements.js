@@ -60,6 +60,11 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 100px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+
 `
 
 export const NavLinks = styled(Link)`

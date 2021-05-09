@@ -11,7 +11,7 @@ function Hero() {
             </HeroBackground> */}
             <HeroContent>
                 <OutlinedTitle>Hi, I'm Verónica</OutlinedTitle>
-                <Subtitle>Full Stack Developer</Subtitle>
+                <Subtitle>Full Stack Web Developer</Subtitle>
             </HeroContent>
             
         </HeroContainer>
