@@ -5,15 +5,10 @@ import { HeroContainer, HeroBackground, HeroContent, OutlinedTitle, Subtitle } f
 function Hero() {
     return (
         <HeroContainer>
-
-            {/* <HeroBackground>
-
-            </HeroBackground> */}
             <HeroContent>
                 <OutlinedTitle>Hi, I'm Verónica</OutlinedTitle>
                 <Subtitle>Full Stack Web Developer</Subtitle>
-            </HeroContent>
-            
+            </HeroContent>        
         </HeroContainer>
     )
 }

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const HeroContainer = styled.div`
     background: #192735;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     /* padding: 0 30px; */
     height: 800px;
@@ -27,7 +27,7 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 0px 24px;
+    padding: 0px 75px;
     display: flex;
     flex-direction: column;
 `
@@ -36,7 +36,6 @@ export const OutlinedTitle = styled.h1`
     color: #fff;
     font-size: 150px;
     font-weight: 800;
-    padding: 0;
     margin: 0;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
@@ -55,6 +54,7 @@ export const Subtitle = styled.h2`
     margin-top: 20px;
     color: #fff;
     font-size: 50px;
+
     max-width: 900px;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
