@@ -1,24 +1,60 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import ProjectDetails from './ProjectDetails'
 import { ProjectContainer, ProjectsWrapper } from './ProjectsElements'
-import MyVeggieWeek1 from '../../assets/mvw_duotone.jpg'
+import BookTogetherDuotone from '../../assets/bookTogether_duotone.png'
+import BoloWizardDuotone from '../../assets/boloWizard_duotone.png'
+import MyVeggieWeekDuotone from '../../assets/myVeggieWeek_duotone.png'
+import SlingshotOrDieDuotone from '../../assets/SoD_duotone.png'
 
 function Projects() {
+
+    const [showBookTogether, setShowBookTogether] = useState(false)
+    const [showMyVeggieWeek, setShowMyVeggieWeek] = useState(false)
+    const [showBoloWizard, setShowBoloWizard] = useState(false)
+    const [showSlingshotOrDie, setShowSlingshotOrDie] = useState(false)
+
+    const openBookTogether = () => {
+        setShowBookTogether(!showBookTogether)
+        setShowMyVeggieWeek(false)
+        setShowBoloWizard(false)
+        setShowSlingshotOrDie(false)
+    }
+
+    const openMyVeggieWeek = () => {
+        setShowBookTogether(false)
+        setShowMyVeggieWeek(!showMyVeggieWeek)
+        setShowBoloWizard(false)
+        setShowSlingshotOrDie(false)
+    }
+
+    const openBoloWizard = () => {
+        setShowBookTogether(false)
+        setShowMyVeggieWeek(false)
+        setShowBoloWizard(!showBoloWizard)
+        setShowSlingshotOrDie(false)
+    }
+
+    const openSlingshotOrDie = () => {
+        setShowBookTogether(false)
+        setShowMyVeggieWeek(false)
+        setShowBoloWizard(false)
+        setShowSlingshotOrDie(!showSlingshotOrDie)
+    }
 
     return (
         <ProjectContainer>
             <ProjectsWrapper>
 
-                <ProjectDetails title='Book Together' technologies='React.js | Node.js | Express.js | MongoDB | ReactBootstrap | CSS' description='Search public Book Clubs to join, meet new people and read together. The app uses the Google Book API and New York Times Book API to show the bestsellers of the week.' imageDuotone={MyVeggieWeek1}/>
+                <ProjectDetails title='Book Together' technologies='React.js | Node.js | Express.js | MongoDB | ReactBootstrap | CSS' description='Search public Book Clubs to join, meet new people and read together. The app uses the Google Book API and New York Times Book API to show the bestsellers of the week.' imageDuotone={BookTogetherDuotone} github='https://github.com/valcalav/BookTogether' show={showBookTogether} open={openBookTogether}/>
 
-                <ProjectDetails title='My Veggie Week' technologies='React.js | Redux.js | React-redux | React Bootstrap | CSS' description='Search the vegetarian recipes database, set up your weekly meal plan and download the pdf.' />
+                <ProjectDetails title='My Veggie Week' technologies='React.js | Redux.js | React-redux | React Bootstrap | CSS' description='Search the vegetarian recipes database, set up your weekly meal plan and download the pdf.' imageDuotone={MyVeggieWeekDuotone} github='https://github.com/valcalav/MyVeggieWeek_react-redux-app' show={showMyVeggieWeek} open={openMyVeggieWeek} />
 
-                <ProjectDetails title='Bolo Wizard' technologies='Node.js | Express.js | MongoDB | HBS | CSS' description='Find music events close to you, either posted by local artists registered to the platform or imported through the Ticketmaster API. Another added functionality is being able to hear the artist or bands music through the Spotify API to get to know them before deciding to attend the event (useful for little-known local artists events).' />
+                <ProjectDetails title='Bolo Wizard' technologies='Node.js | Express.js | MongoDB | HBS | CSS' description='Find music events close to you, either posted by local artists registered to the platform or imported through the Ticketmaster API. Another added functionality is being able to hear the artist or bands music through the Spotify API to get to know them before deciding to attend the event (useful for little-known local artists events).' imageDuotone={BoloWizardDuotone} github='https://github.com/valcalav/bolo-wizard' show={showBoloWizard} open={ openBoloWizard} />
 
-                <ProjectDetails title='Slingshot or Die' technologies='Canvas | JavaScript | CSS' description='Game. Use your mouse to control the slingshot, kill dragons and save innocents.' />
+                <ProjectDetails title='Slingshot or Die' technologies='Canvas | JavaScript | CSS' description='Game. Use your mouse to control the slingshot, kill dragons and save innocents.' imageDuotone={SlingshotOrDieDuotone} github='https://github.com/valcalav/Game_Slingshot-Or-Die' show={showSlingshotOrDie} open={openSlingshotOrDie} />
 
-            </ProjectsWrapper>        
+            </ProjectsWrapper>
         </ProjectContainer>
     )
 }

@@ -5,7 +5,6 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* padding: 0 30px; */
     height: 800px;
     position: relative;
     z-index: 1;
@@ -36,7 +35,7 @@ export const OutlinedTitle = styled.h1`
     color: #fff;
     font-size: 150px;
     font-weight: 800;
-    margin: 0;
+    margin: 13% 0 0 0;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: .8px;
@@ -67,5 +66,4 @@ export const Subtitle = styled.h2`
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }
-
 `

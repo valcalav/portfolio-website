@@ -1,23 +1,34 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-import { ProjectTitle, TechUsed, Description, ImgDuotone } from './ProjectsElements'
+import { EachProjectContainer,TextContainer, ImgContainer, ProjectTitle, TechUsed, Description, ProjectLink, ImgDuotone, Arrow } from './ProjectsElements'
+import WhiteArrow from '../../assets/whiteArrow.png'
 
-function ProjectDetails({title, technologies, description, imageDuotone}) {
+function ProjectDetails({title, technologies, description, imageDuotone, github, show, open}) {
 
-    const [showProject, setShowProject] = useState(false)
-    //CAMBIAR ESTO EN LUGAR DE ON CLICK, ON HOVER. AL HACER CLICK, IR A GITHUB
+    const openProject = () => {
+        
+        open()
+    }
 
     return (
-        <div>
-            <ProjectTitle onClick={() => setShowProject(!showProject)}>{title}</ProjectTitle>
-            {
-                showProject && <>
-                <TechUsed>{technologies}</TechUsed>
-                <Description>{description}</Description>
-                <ImgDuotone src={imageDuotone} />
-                </>
-            }
-        </div>
+        <EachProjectContainer showProject={show}>
+            <TextContainer >
+                <ProjectTitle onClick={() => openProject()}>{title}</ProjectTitle>
+                {
+                    show && <div>
+                    <TechUsed>{technologies}</TechUsed>
+                    <Description>{description}</Description>
+                    <ProjectLink href={github} target="_blank">Go to project <Arrow src={WhiteArrow} alt='external link' /></ProjectLink>
+                    </div>
+                }
+            </TextContainer>
+
+            <ImgContainer>
+                {
+                    show && <ImgDuotone src={imageDuotone} />
+                }
+            </ImgContainer>
+        </EachProjectContainer>
     )
 }
 

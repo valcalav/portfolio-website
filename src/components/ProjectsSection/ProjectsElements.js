@@ -10,15 +10,36 @@ export const ProjectContainer = styled.div`
 `
 
 export const ProjectsWrapper = styled.div`
-    max-width: 1200px;
+    max-width: 1250px;
     padding: 0px 75px;
     display: flex;
     flex-direction: column;
 `
 
+export const EachProjectContainer = styled.div`
+    display: flex;
+    margin: 5px 0;
+    height: ${props => props.showProject ? '300px' : '100px' };
+    transition: 1s;
+`
+
+export const TextContainer = styled.div`
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+`
+
+export const ImgContainer = styled.div`
+    position: absolute;
+    z-index: 0;
+    left: 45%;
+    margin-bottom: 40px;
+`
+
 export const ProjectTitle = styled.h1`
     color: #fff;
-    font-size: 100px;
+    font-size: 108px;
     font-weight: 800;
     padding: 0;
     margin: 0;
@@ -41,7 +62,7 @@ export const TechUsed = styled.p`
     margin-top: 0px;
     padding-left: 7px;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1.4px;
     max-width: 900px;
     text-transform: uppercase;
@@ -51,13 +72,26 @@ export const Description = styled.p`
     max-width: 730px;
     margin-bottom: 15px;
     padding-left: 7px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 24px;
     color: white;
 `
 
-export const ImgDuotone = styled.img`
-    max-width: 450px;
+export const ProjectLink = styled.a`
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: .6px;
+    font-size: 15px;
     padding-left: 7px;
-    margin-bottom: 20px;
+    
+
+`
+
+export const ImgDuotone = styled.img`
+    max-width: 500px;
+`
+
+export const Arrow = styled.img`
+    max-width: 17px;
 `
