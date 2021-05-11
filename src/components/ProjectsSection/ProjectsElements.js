@@ -15,6 +15,10 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
+    @media screen and (max-width: 1126px) {
+        padding: 0px 45px;
+    }
+
     @media screen and (max-width: 400px) {
         padding: 0px 35px;
     }
@@ -131,6 +135,14 @@ export const TechUsed = styled.p`
     letter-spacing: 1.4px;
     max-width: 600px;
     text-transform: uppercase;
+
+    @media screen and (max-width: 1330px) {
+        max-width: 525px;
+    }
+
+    @media screen and (max-width: 1126px) {
+        max-width: 430px;
+    }
 `
 
 export const Description = styled.p`
@@ -140,6 +152,14 @@ export const Description = styled.p`
     font-size: 14px;
     line-height: 24px;
     color: white;
+
+    @media screen and (max-width: 1330px) {
+        max-width: 500px;
+    }
+
+    @media screen and (max-width: 1126px) {
+        max-width: 430px;
+    }
 
     @media screen and (max-width: 400px) {
         font-size: 13px;
