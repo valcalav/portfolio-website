@@ -37,7 +37,26 @@ export const ImgContainer = styled.div`
     margin-bottom: 40px;
 `
 
-export const ProjectTitle = styled.h1`
+export const ProjectTitleFilled = styled.h1`
+    
+    color: #fff;
+    font-size: 108px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+`
+
+export const ProjectTitleOutlined = styled.h1`
     color: #fff;
     font-size: 108px;
     font-weight: 800;
@@ -47,6 +66,10 @@ export const ProjectTitle = styled.h1`
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: .8px;
     cursor: pointer;
+    &:hover {
+        font-size: ${props => props.showProject ? 'null' : '106px' };
+        transition: .3s;
+    }
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
