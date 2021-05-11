@@ -29,6 +29,10 @@ export const HeroContent = styled.div`
     padding: 0px 75px;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 480px) {
+        padding: 0px 35px;
+    }
 `
 
 export const OutlinedTitle = styled.h1`
@@ -45,7 +49,8 @@ export const OutlinedTitle = styled.h1`
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 32px;
+        font-size: 50px;
+        margin: 0;
     }
 `
 
@@ -53,7 +58,6 @@ export const Subtitle = styled.h2`
     margin-top: 20px;
     color: #fff;
     font-size: 50px;
-
     max-width: 900px;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
@@ -64,6 +68,8 @@ export const Subtitle = styled.h2`
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 18px;
+        font-size: 22px;
+        -webkit-text-fill-color: initial;
+        font-weight: 600;
     }
 `

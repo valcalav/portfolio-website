@@ -75,7 +75,7 @@ export const Heading = styled.h1`
 export const Description = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     color: white;
 `
@@ -93,7 +93,8 @@ export const ContactLink = styled.a`
     text-decoration: none;
     color: white;
     font-weight: 600;
-    letter-spacing: .4px;
+    letter-spacing: .6px;
+    font-size: 14px;
 `
 
 export const ImgWrap = styled.div`
@@ -105,4 +106,8 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0
+`
+
+export const Arrow = styled.img`
+    max-width: 17px;
 `

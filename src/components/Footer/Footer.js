@@ -5,7 +5,7 @@ function Footer() {
     return (
         <FooterContainer>
             <FooterText>
-                2021 © All Rights Reserved
+                ©2021 - All Rights Reserved - Verónica Alcalá Vera
             </FooterText>
         </FooterContainer>
     )

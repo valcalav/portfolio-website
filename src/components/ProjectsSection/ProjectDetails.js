@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { EachProjectContainer,TextContainer, ImgContainer, ProjectTitleOutlined, TechUsed, Description, ProjectLink, ImgDuotone, ImgColor, Arrow } from './ProjectsElements'
+import { EachProjectContainer,TextContainer, ImgContainer, ProjectTitleFilled, ProjectTitleOutlined, TechUsed, Description, ProjectLink, ImgDuotone, ImgColor, Arrow } from './ProjectsElements'
 import WhiteArrow from '../../assets/whiteArrow.png'
 
 function ProjectDetails({title, technologies, description, imageDuotone, imageColor, github, show, open}) {
@@ -13,8 +13,10 @@ function ProjectDetails({title, technologies, description, imageDuotone, imageCo
     return (
         <EachProjectContainer showProject={show}>
             <TextContainer >
-                
+            <div >
+                <ProjectTitleFilled showProject={show}>{title}</ProjectTitleFilled> 
                 <ProjectTitleOutlined showProject={show} onClick={() => openProject()}>{title}</ProjectTitleOutlined>
+            </div>
                 {
                     show && <div>
                     <TechUsed>{technologies}</TechUsed>
