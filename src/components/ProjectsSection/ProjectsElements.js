@@ -84,12 +84,19 @@ export const ProjectLink = styled.a`
     letter-spacing: .6px;
     font-size: 15px;
     padding-left: 7px;
-    
-
 `
 
 export const ImgDuotone = styled.img`
     max-width: 500px;
+    position: absolute;
+    &:hover {
+        opacity: 0.3;
+    }
+`
+
+export const ImgColor = styled.img`
+    max-width: 500px;
+    position: absolute;
 `
 
 export const Arrow = styled.img`

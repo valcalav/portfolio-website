@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { EachProjectContainer,TextContainer, ImgContainer, ProjectTitle, TechUsed, Description, ProjectLink, ImgDuotone, Arrow } from './ProjectsElements'
+import { EachProjectContainer,TextContainer, ImgContainer, ProjectTitle, TechUsed, Description, ProjectLink, ImgDuotone, ImgColor, Arrow } from './ProjectsElements'
 import WhiteArrow from '../../assets/whiteArrow.png'
 
-function ProjectDetails({title, technologies, description, imageDuotone, github, show, open}) {
+function ProjectDetails({title, technologies, description, imageDuotone, imageColor, github, show, open}) {
 
     const openProject = () => {
         
@@ -25,7 +25,11 @@ function ProjectDetails({title, technologies, description, imageDuotone, github,
 
             <ImgContainer>
                 {
-                    show && <ImgDuotone src={imageDuotone} />
+                    show && <>
+                    <ImgColor src={imageColor} />
+                    <ImgDuotone src={imageDuotone} />
+
+                    </>
                 }
             </ImgContainer>
         </EachProjectContainer>
