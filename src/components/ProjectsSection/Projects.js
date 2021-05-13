@@ -47,7 +47,7 @@ function Projects() {
     }
 
     return (
-        <ProjectContainer>
+        <ProjectContainer id='projects'>
             <ProjectsWrapper>
 
                 <ProjectDetails title='Book Together' technologies='React.js | Node.js | Express.js | MongoDB | React Bootstrap | CSS' description='Search public Book Clubs to join, meet new people and read together. The app uses the Google Book API and New York Times Book API to show the bestsellers of the week.' imageDuotone={BookTogetherDuotone} imageColor={BookTogetherColor} github='https://github.com/valcalav/BookTogether' show={showBookTogether} open={openBookTogether}/>

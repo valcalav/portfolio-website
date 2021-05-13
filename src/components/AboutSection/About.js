@@ -8,7 +8,7 @@ import profileImg from '../../assets/profile_duotone.jpg'
 function About() {
     return (
         <div>
-            <AboutContainer>
+            <AboutContainer id='about'>
                 <AboutWrapper>
                     <AboutRow>
                         <Column1>

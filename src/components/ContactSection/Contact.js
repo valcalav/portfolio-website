@@ -5,10 +5,10 @@ import Arrow from '../../assets/whiteArrow.png'
 
 function Contact() {
     return (
-        <ContactContainer>
+        <ContactContainer id='contact'>
             <ContactWrapper>
                 <ContactTitle>Get in touch</ContactTitle>
-                <ContactText>If you wanna get in touch, talk to me about a job position, project collaboration or just say hello:</ContactText>
+                <ContactText>If you want to get in touch, talk to me about a job position, project collaboration or just say hello:</ContactText>
                 <Email><Icon />veronica.alcala@gmail.com</Email>
                 <ContactLink>LinkedIn<Icon src={Arrow} /></ContactLink>
                 <ContactLink>GitHub<Icon src={Arrow} /></ContactLink>

@@ -10,18 +10,6 @@ export const HeroContainer = styled.div`
     z-index: 1;
 `
 
-export const HeroBackground = styled.div`
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-`
-
 export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1300px;
@@ -46,7 +34,7 @@ export const OutlinedTitle = styled.h1`
     margin: 13% 0 0 0;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-width: 1px;
 
     @media screen and (max-width: 1226px) {
         font-size: 170px;
@@ -78,7 +66,7 @@ export const Subtitle = styled.h2`
     max-width: 900px;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-width: 1px;
 
     @media screen and (max-width: 1226px) {
         font-size: 40px;
