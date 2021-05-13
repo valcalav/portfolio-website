@@ -25,10 +25,10 @@ export const AboutRow = styled.div`
     display: grid;
     grid-auto-columns: minmax()(auto, 1fr);
     align-items: center;
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col2 col1'`)};
+    grid-template-areas: 'col2 col1';
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        grid-template-areas:'col1 col1' 'col2 col2';
     }
 `
 
@@ -60,6 +60,7 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
 `
 
+
 export const Heading = styled.h1`
     margin-bottom: 24px;
     font-size: 40px;
@@ -80,13 +81,20 @@ export const Description = styled.p`
     color: white;
 `
 
+export const TechList = styled.ul`
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    grid-gap: 2px;
+    list-style-position: inside;
+`
+
 export const Contact = styled.p`
     font-size: 11px;
     letter-spacing: 1.4px;
     font-weight: 600;
     text-transform: uppercase;
     color: #a8a8a8;
-    margin-bottom: 15px;
+    margin: 15px 0;
 `
 
 export const ContactLink = styled.a`
@@ -109,5 +117,5 @@ export const Img = styled.img`
 `
 
 export const Arrow = styled.img`
-    max-width: 17px;
+    width: 17px;
 `

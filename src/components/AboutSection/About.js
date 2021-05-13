@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Description, ImgWrap, Img, Contact, ContactLink, Arrow } from './AboutElements'
+import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Description, ImgWrap, Img, TechList, Contact, ContactLink, Arrow } from './AboutElements'
 import ExternalLink from '../../assets/whiteArrow.png'
 
 import profileImg from '../../assets/profile_duotone.jpg'
@@ -13,11 +13,24 @@ function About() {
                     <AboutRow>
                         <Column1>
                             <TextWrapper>
-                                <TopLine>About me</TopLine>
+                                <TopLine>Hi! My name is</TopLine>
                                 <Heading>Verónica Alcalá Vera</Heading>
                                 <Description>I am a goal-oriented full-stack junior web developer from Venezuela currently based in Madrid.
                                 <br/>
-                                
+                                I enjoy building things and bringing ideas to life in the browser.
+                                <br/>
+                                <br/>
+                                Here are a few technologies I've been working with recently:
+                                <TechList>
+                                    <li>JavaScript</li>
+                                    <li>React.js</li>
+                                    <li>Redux</li>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>MongoDB</li>
+                                    <li>CSS</li>
+                                    <li>HTML</li>
+                                </TechList>
                                 </Description>
                                 <Contact>Contact</Contact>
                                 <Description>

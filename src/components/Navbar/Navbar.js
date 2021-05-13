@@ -16,6 +16,9 @@ function Navbar() {
                     <NavItem>
                         <NavLinks to='projects'>My projects</NavLinks>
                     </NavItem>
+                    <NavItem>
+                        <NavLinks to='contact'>Contact</NavLinks>
+                    </NavItem>
                 </NavMenu>
             </NavbarContainer>
         </Nav>

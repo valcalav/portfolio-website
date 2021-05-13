@@ -50,7 +50,7 @@ function Projects() {
         <ProjectContainer>
             <ProjectsWrapper>
 
-                <ProjectDetails title='Book Together' technologies='React.js | Node.js | Express.js | MongoDB | ReactBootstrap | CSS' description='Search public Book Clubs to join, meet new people and read together. The app uses the Google Book API and New York Times Book API to show the bestsellers of the week.' imageDuotone={BookTogetherDuotone} imageColor={BookTogetherColor} github='https://github.com/valcalav/BookTogether' show={showBookTogether} open={openBookTogether}/>
+                <ProjectDetails title='Book Together' technologies='React.js | Node.js | Express.js | MongoDB | React Bootstrap | CSS' description='Search public Book Clubs to join, meet new people and read together. The app uses the Google Book API and New York Times Book API to show the bestsellers of the week.' imageDuotone={BookTogetherDuotone} imageColor={BookTogetherColor} github='https://github.com/valcalav/BookTogether' show={showBookTogether} open={openBookTogether}/>
 
                 <ProjectDetails title='My Veggie Week' technologies='React.js | Redux.js | React-redux | React Bootstrap | CSS' description='Search the vegetarian recipes database, set up your weekly meal plan and download the pdf.' imageDuotone={MyVeggieWeekDuotone} imageColor={MyVeggieWeekColor} github='https://github.com/valcalav/MyVeggieWeek_react-redux-app' show={showMyVeggieWeek} open={openMyVeggieWeek} />
 

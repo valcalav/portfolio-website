@@ -60,6 +60,11 @@ export const OutlinedTitle = styled.h1`
         font-size: 120px;
     }
 
+    @media screen and (max-width: 550px) {
+        font-size: 75px;
+        margin: 0;
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 50px;
         margin: 0;
@@ -81,6 +86,11 @@ export const Subtitle = styled.h2`
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
+    }
+
+    @media screen and (max-width: 550px) {
+        font-size: 30px;
+        margin: 0;
     }
 
     @media screen and (max-width: 480px) {

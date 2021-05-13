@@ -69,6 +69,10 @@ export const ProjectTitleFilled = styled.h1`
         font-size: 100px;
     }
 
+    @media screen and (max-width: 1050px) {
+        font-size: 90px;
+    }
+
     @media screen and (max-width: 768px) {
         font-size: 40px;
     }
@@ -101,6 +105,14 @@ export const ProjectTitleOutlined = styled.h1`
         font-size: 100px;
         &:hover {
         font-size: ${props => props.showProject ? 'null' : '99px' };
+        transition: .3s;
+        }
+    }
+
+    @media screen and (max-width: 1050px) {
+        font-size: 90px;
+        &:hover {
+        font-size: ${props => props.showProject ? 'null' : '89px' };
         transition: .3s;
         }
     }
