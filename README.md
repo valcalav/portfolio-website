@@ -2,6 +2,10 @@
 
 Full stack web developer portfolio.
 
+## Project link
+
+https://valcalav.github.io/portfolio-website/
+
 ## Technologies
 
 - React.js
@@ -12,4 +16,5 @@ Full stack web developer portfolio.
 - CSS
 
 ## Author
+
 - Verónica Alcalá Vera | [GitHub profile](https://github.com/valcalav) | [LinkedIn](https://www.linkedin.com/in/veronicaalcalav/)
