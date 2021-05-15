@@ -6,7 +6,7 @@ export const ContactContainer = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 800px;
+    height: 860px;
 
     @media screen and (max-width: 480px) {
         height: 520px;
@@ -58,6 +58,10 @@ export const Email = styled.p`
         font-size: 34px;  
     }
 
+    @media screen and (max-width: 510px) {
+        font-size: 32px;
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 21px;
     }
@@ -74,6 +78,10 @@ export const ContactLink = styled.a`
 
     @media screen and (max-width: 550px) {
         font-size: 34px;  
+    }
+
+    @media screen and (max-width: 510px) {
+        font-size: 32px;
     }
 
     @media screen and (max-width: 480px) {

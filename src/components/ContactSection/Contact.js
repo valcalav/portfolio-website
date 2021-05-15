@@ -1,10 +1,12 @@
 import React from 'react'
 
 import { ContactContainer, ContactWrapper, TopLine, ContactText, Email, ContactLink, Icon } from './ContactElements'
+import Footer from '../Footer/Footer'
 import Arrow from '../../assets/whiteArrow.png'
 
 function Contact() {
     return (
+        <>
         <ContactContainer id='contact'>
             <ContactWrapper>
             <TopLine>Get in touch</TopLine>
@@ -14,6 +16,8 @@ function Contact() {
                 <ContactLink href='https://github.com/valcalav' target="_blank">GitHub<Icon src={Arrow} /></ContactLink>
             </ContactWrapper>
         </ContactContainer>
+        <Footer/>
+        </>
     )
 }
 

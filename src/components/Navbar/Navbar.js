@@ -36,13 +36,13 @@ function Navbar() {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='about'>About me</NavLinks>
+                        <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' >About me</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='projects'>My projects</NavLinks>
+                        <NavLinks to='projects' smooth={true} duration={500} spy={true}  >My projects</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='contact'>Contact</NavLinks>
+                        <NavLinks to='contact' smooth={true} duration={500} spy={true}  >Contact</NavLinks>
                     </NavItem>
                     <ResumeWrapper>
                         <ResumeBtn href={PDF} target='_blank'>Resume</ResumeBtn>

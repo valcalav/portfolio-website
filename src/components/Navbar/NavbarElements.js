@@ -41,7 +41,6 @@ export const NavLogo = styled(Link)`
     letter-spacing: 1.4px;
     font-weight: 900;
     height: 66px;
-    /* margin-top: 0 */
 `
 
 export const MobileIcon = styled.div`

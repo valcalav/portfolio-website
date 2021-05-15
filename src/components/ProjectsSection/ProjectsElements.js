@@ -12,6 +12,7 @@ export const ProjectContainer = styled.div`
 export const ProjectsWrapper = styled.div`
     max-width: 1250px;
     padding: 0px 75px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
 
@@ -29,6 +30,10 @@ export const EachProjectContainer = styled.div`
     margin: 5px 0;
     height: ${props => props.showProject ? '300px' : '100px' };
     transition: 1s;
+
+    @media screen and (max-width: 868px) {
+        height: ${props => props.showProject ? '330px' : '70px' };
+    }
 
     @media screen and (max-width: 768px) {
         display: block;
@@ -71,6 +76,10 @@ export const ProjectTitleFilled = styled.h1`
 
     @media screen and (max-width: 1050px) {
         font-size: 90px;
+    }
+
+    @media screen and (max-width: 863px) {
+        font-size: 70px;
     }
 
     @media screen and (max-width: 768px) {
@@ -117,6 +126,14 @@ export const ProjectTitleOutlined = styled.h1`
         }
     }
 
+    @media screen and (max-width: 863px) {
+        font-size: 70px;
+        &:hover {
+        font-size: ${props => props.showProject ? 'null' : '69px' };
+        transition: .3s;
+        }
+    }
+
     @media screen and (max-width: 768px) {
         font-size: 40px;
         position: initial;
@@ -155,6 +172,11 @@ export const TechUsed = styled.p`
     @media screen and (max-width: 1126px) {
         max-width: 430px;
     }
+
+    @media screen and (max-width: 865px) {
+        max-width: 350px;
+        font-size: 15px;
+    }
 `
 
 export const Description = styled.p`
@@ -171,6 +193,11 @@ export const Description = styled.p`
 
     @media screen and (max-width: 1126px) {
         max-width: 430px;
+    }
+
+    @media screen and (max-width: 865px) {
+        max-width: 350px;
+        font-size: 13px;
     }
 
     @media screen and (max-width: 400px) {
@@ -194,7 +221,7 @@ export const ImgDuotone = styled.img`
         opacity: 0.3;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 865px) {
         max-width: 400px;
     }
 
@@ -207,7 +234,7 @@ export const ImgColor = styled.img`
     max-width: 500px;
     position: absolute;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 865px) {
         max-width: 400px;
     }
 
