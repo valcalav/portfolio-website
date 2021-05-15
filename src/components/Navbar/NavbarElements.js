@@ -23,11 +23,25 @@ export const Nav = styled.div`
 
 export const NavbarContainer = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 100px;
     z-index: 1;
     width: 100%;
     padding: 30px 50px;
+`
+
+export const NavLogo = styled(Link)`
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 11.5px;
+    letter-spacing: 1.4px;
+    font-weight: 900;
+    height: 66px;
+    /* margin-top: 0 */
 `
 
 export const MobileIcon = styled.div`
@@ -51,7 +65,6 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    /* margin-right: -22px; */
 
     @media screen and (max-width:768px) {
         display: none;
@@ -64,7 +77,6 @@ export const NavItem = styled.li`
     font-size: 11px;
     letter-spacing: 1.4px;
     font-weight: 600;
-
 `
 
 export const NavLinks = styled(Link)`
@@ -81,5 +93,38 @@ export const NavLinks = styled(Link)`
     }
 `
 
+export const ResumeWrapper = styled.div`
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 26px;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #df91ad;
+    }
+`
+
+export const ResumeBtn = styled.a`
+    color: #df91ad;
+    border: 1.9px solid #df91ad;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    font-weight: 900;
+
+    &.active {
+        border-bottom: 3px solid #df91ad;
+    }
+`
 
 

@@ -48,6 +48,11 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+
+    @media screen and (max-width: 400px) {
+        max-width: 300px;
+    }
+
 `
 
 export const TopLine = styled.p`
@@ -59,7 +64,6 @@ export const TopLine = styled.p`
     text-transform: uppercase;
     margin-bottom: 16px;
 `
-
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
@@ -86,9 +90,13 @@ export const TechList = styled.ul`
     grid-template-columns: repeat(3, 140px);
     grid-gap: 2px;
     list-style-position: inside;
+
+    @media screen and (max-width: 480px) {
+        grid-template-columns: repeat(2, 140px);
+    }
 `
 
-export const Contact = styled.p`
+export const Subtitle = styled.p`
     font-size: 11px;
     letter-spacing: 1.4px;
     font-weight: 600;
@@ -113,7 +121,11 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    padding-right: 0
+    padding-right: 0;
+
+    @media screen and (max-width: 480px) {
+        width: 300px;
+    }
 `
 
 export const Arrow = styled.img`

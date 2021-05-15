@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Description, ImgWrap, Img, TechList, Contact, ContactLink, Arrow } from './AboutElements'
+import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Description, ImgWrap, Img, TechList, Subtitle, ContactLink, Arrow } from './AboutElements'
 import ExternalLink from '../../assets/whiteArrow.png'
 
 import profileImg from '../../assets/profile_duotone.jpg'
@@ -18,8 +18,9 @@ function About() {
                                 <Description>I am a goal-oriented full-stack junior web developer from Venezuela currently based in Madrid.
                                 <br/>
                                 I enjoy building things and bringing ideas to life in the browser.
-                                <br/>
-                                <br/>
+                                </Description>
+                                <Subtitle>Programming Skills</Subtitle>
+                                <Description>
                                 Here are a few technologies I've been working with recently:
                                 <TechList>
                                     <li>JavaScript</li>
@@ -32,11 +33,9 @@ function About() {
                                     <li>HTML</li>
                                 </TechList>
                                 </Description>
-                                <Contact>Contact</Contact>
+                                <Subtitle>More about me...</Subtitle>
                                 <Description>
-                                veronica.alcala@gmail.com
-                                <br/>
-                                <ContactLink href='https://github.com/valcalav'>GitHub <Arrow src={ExternalLink} /></ContactLink> | <ContactLink href='https://www.linkedin.com/in/veronicaalcalav/'>LinkedIn <Arrow src={ExternalLink} /></ContactLink>
+                                <ContactLink>GitHub <Arrow src={ExternalLink} alt='external link icon' /></ContactLink> | <ContactLink>LinkedIn <Arrow src={ExternalLink} alt='external link icon' /></ContactLink>
                                 </Description>
                             </TextWrapper>
                         </Column1>

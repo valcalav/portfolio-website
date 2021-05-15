@@ -91,7 +91,7 @@ export const ProjectTitleOutlined = styled.h1`
     margin: 0;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-width: 1.5px;
     cursor: pointer;
     position: absolute;
     z-index: 1;
@@ -198,7 +198,7 @@ export const ImgDuotone = styled.img`
         max-width: 400px;
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 415px) {
         max-width: 280px;
     }
 `
@@ -211,7 +211,7 @@ export const ImgColor = styled.img`
         max-width: 400px;
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 415px) {
         max-width: 280px;
     }
 `

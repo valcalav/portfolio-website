@@ -34,7 +34,7 @@ export const OutlinedTitle = styled.h1`
     margin: 13% 0 0 0;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
 
     @media screen and (max-width: 1226px) {
         font-size: 170px;
@@ -60,16 +60,16 @@ export const OutlinedTitle = styled.h1`
 `
 
 export const Subtitle = styled.h2`
-    margin-top: 20px;
     color: #fff;
     font-size: 50px;
+    font-weight: 700;
     max-width: 900px;
     text-transform: uppercase;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-text-stroke-width: 1px; */
 
     @media screen and (max-width: 1226px) {
-        font-size: 40px;
+        font-size: 47px;
     }
 
     @media screen and (max-width: 768px) {
