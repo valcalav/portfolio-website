@@ -11,6 +11,6 @@ export const FooterContainer = styled.div`
 
 export const FooterText = styled.p`
     color: white;
-    font-size: .7rem;
+    font-size: .8rem;
 
 `

@@ -37,7 +37,7 @@ export const NavLogo = styled(Link)`
     margin-left: 24px;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 11.5px;
+    font-size: 12px;
     letter-spacing: 1.4px;
     font-weight: 900;
     height: 66px;

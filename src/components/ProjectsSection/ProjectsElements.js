@@ -196,6 +196,10 @@ export const Description = styled.p`
         max-width: 430px;
     }
 
+    @media screen and (max-width: 940px) {
+        max-width: 400px;
+    }
+
     @media screen and (max-width: 865px) {
         max-width: 350px;
         font-size: 13px;

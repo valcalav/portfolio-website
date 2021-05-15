@@ -1,12 +1,15 @@
 # My Portfolio
 
+Full stack web developer portfolio.
+
 ## Technologies
 
 - React.js
 - React-scroll
 - React-icons
 - Styled components
-- CSS & HTML
+- Particles-bg
+- CSS
 
 ## Author
 - Verónica Alcalá Vera | [GitHub profile](https://github.com/valcalav) | [LinkedIn](https://www.linkedin.com/in/veronicaalcalav/)
