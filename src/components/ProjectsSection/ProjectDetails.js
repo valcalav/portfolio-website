@@ -19,7 +19,7 @@ function ProjectDetails({title, technologies, description, imageDuotone, imageCo
             </div>
                 {
                     show && <div>
-                    <TechUsed>{technologies}</TechUsed>
+                    <TechUsed showProject={show}>{technologies}</TechUsed>
                     <Description>{description}</Description>
                     <ProjectLink href={github} target="_blank">Github <Arrow src={WhiteArrow} alt='external link' /></ProjectLink>
                     </div>

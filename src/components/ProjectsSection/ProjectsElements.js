@@ -106,41 +106,25 @@ export const ProjectTitleOutlined = styled.h1`
     z-index: 1;
 
     &:hover {
-        font-size: ${props => props.showProject ? 'null' : '107px' };
+        padding-left: ${props => props.showProject ? 'null' : '5px' };
         transition: .3s;
     }
 
     @media screen and (max-width: 1366px) {
         font-size: 100px;
-        &:hover {
-        font-size: ${props => props.showProject ? 'null' : '99px' };
-        transition: .3s;
-        }
     }
 
     @media screen and (max-width: 1050px) {
         font-size: 90px;
-        &:hover {
-        font-size: ${props => props.showProject ? 'null' : '89px' };
-        transition: .3s;
-        }
     }
 
     @media screen and (max-width: 863px) {
         font-size: 70px;
-        &:hover {
-        font-size: ${props => props.showProject ? 'null' : '69px' };
-        transition: .3s;
-        }
     }
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
         position: initial;
-        &:hover {
-        font-size: ${props => props.showProject ? 'null' : '39px' };
-        transition: .3s;
-        }
     }
 
     @media screen and (max-width: 480px) {
@@ -148,10 +132,6 @@ export const ProjectTitleOutlined = styled.h1`
         margin-bottom: 20px;
         font-size: 30px;
         position: initial;
-        &:hover {
-        font-size: ${props => props.showProject ? 'null' : '31px' };
-        transition: .3s;
-        }
     }
 `
 
@@ -164,6 +144,17 @@ export const TechUsed = styled.p`
     letter-spacing: 1.4px;
     max-width: 600px;
     text-transform: uppercase;
+    display: ${props => props.showProject ? 'auto' : 'none'};
+    animation: textAnimation 1s ease-in;
+
+    @keyframes textAnimation {
+        0%{
+            opacity: 0;
+        };
+        100%{
+            opacity: 1;
+        }
+    } 
 
     @media screen and (max-width: 1330px) {
         max-width: 525px;
@@ -186,6 +177,16 @@ export const Description = styled.p`
     font-size: 14px;
     line-height: 24px;
     color: white;
+    animation: textAnimation 1s ease-in;
+
+    @keyframes textAnimation {
+        0%{
+            opacity: 0;
+        };
+        100%{
+            opacity: 1;
+        }
+    } 
 
     @media screen and (max-width: 1330px) {
         max-width: 500px;
@@ -212,6 +213,16 @@ export const ProjectLink = styled.a`
     letter-spacing: .6px;
     font-size: 14px;
     padding-left: 7px;
+    animation: textAnimation 1s ease-in;
+
+    @keyframes textAnimation {
+        0%{
+            opacity: 0;
+        };
+        100%{
+            opacity: 1;
+        }
+    } 
 `
 
 export const ImgDuotone = styled.img`
@@ -220,6 +231,16 @@ export const ImgDuotone = styled.img`
     &:hover {
         opacity: 0.3;
     }
+    animation: textAnimation 1s ease-in;
+
+    @keyframes textAnimation {
+        0%{
+            opacity: 0;
+        };
+        100%{
+            opacity: 1;
+        }
+    } 
 
     @media screen and (max-width: 865px) {
         max-width: 400px;
@@ -233,6 +254,16 @@ export const ImgDuotone = styled.img`
 export const ImgColor = styled.img`
     max-width: 500px;
     position: absolute;
+    animation: textAnimation 1s ease-in;
+
+    @keyframes textAnimation {
+        0%{
+            opacity: 0;
+        };
+        100%{
+            opacity: 1;
+        }
+    } 
 
     @media screen and (max-width: 865px) {
         max-width: 400px;

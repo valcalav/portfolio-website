@@ -36,7 +36,7 @@ function About() {
                                 </Description>
                                 <Subtitle>More about me...</Subtitle>
                                 <Description>
-                                <ContactLink href={PDF} target='_blank'>Resume <Arrow src={ExternalLink} alt='external link icon' /></ContactLink> | <ContactLink href='https://github.com/valcalav' target="_blank">GitHub <Arrow src={ExternalLink} alt='external link icon' /></ContactLink> | <ContactLink href='https://www.linkedin.com/in/veronicaalcalav/' target="_blank">LinkedIn <Arrow src={ExternalLink} alt='external link icon' /></ContactLink>
+                                <ContactLink href={PDF} target='_blank'>PDF Resume <Arrow src={ExternalLink} alt='external link icon' /></ContactLink> | <ContactLink href='https://github.com/valcalav' target="_blank">GitHub <Arrow src={ExternalLink} alt='external link icon' /></ContactLink> | <ContactLink href='https://www.linkedin.com/in/veronicaalcalav/' target="_blank">LinkedIn <Arrow src={ExternalLink} alt='external link icon' /></ContactLink>
                                 </Description>
                             </TextWrapper>
                         </Column1>
