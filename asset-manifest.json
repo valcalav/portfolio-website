@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.ff24c022.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.d6d1a34f.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.d6d1a34f.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.52e61216.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.52e61216.js.map",
+    "static/js/2.a177fd11.chunk.js": "/portfolio-website/static/js/2.a177fd11.chunk.js",
+    "static/js/2.a177fd11.chunk.js.map": "/portfolio-website/static/js/2.a177fd11.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/main.ff24c022.chunk.css.map": "/portfolio-website/static/css/main.ff24c022.chunk.css.map",
+    "static/js/2.a177fd11.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.a177fd11.chunk.js.LICENSE.txt",
+    "static/media/FullStack_WebDev_VeronicaAlcalaVera.b010f59b.pdf": "/portfolio-website/static/media/FullStack_WebDev_VeronicaAlcalaVera.b010f59b.pdf",
+    "static/media/SoD_color.7bfb9a37.png": "/portfolio-website/static/media/SoD_color.7bfb9a37.png",
+    "static/media/SoD_duotone.de772fd9.png": "/portfolio-website/static/media/SoD_duotone.de772fd9.png",
+    "static/media/boloWizard_color.312b766d.png": "/portfolio-website/static/media/boloWizard_color.312b766d.png",
+    "static/media/boloWizard_duotone.7777a209.png": "/portfolio-website/static/media/boloWizard_duotone.7777a209.png",
+    "static/media/bookTogether_color.f9a6cde7.png": "/portfolio-website/static/media/bookTogether_color.f9a6cde7.png",
+    "static/media/bookTogether_duotone.ed0e8c21.png": "/portfolio-website/static/media/bookTogether_duotone.ed0e8c21.png",
+    "static/media/myVeggieWeek_color.82a86e37.png": "/portfolio-website/static/media/myVeggieWeek_color.82a86e37.png",
+    "static/media/myVeggieWeek_duotone.e48fcfe0.png": "/portfolio-website/static/media/myVeggieWeek_duotone.e48fcfe0.png",
+    "static/media/profile_duotone.da246b6d.jpg": "/portfolio-website/static/media/profile_duotone.da246b6d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52e61216.js",
+    "static/js/2.a177fd11.chunk.js",
+    "static/css/main.ff24c022.chunk.css",
+    "static/js/main.d6d1a34f.chunk.js"
+  ]
+}
