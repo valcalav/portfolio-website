@@ -21,18 +21,17 @@ function ProjectDetails({title, technologies, description, imageDuotone, imageCo
                     show && <div>
                     <TechUsed>{technologies}</TechUsed>
                     <Description>{description}</Description>
-                    <ProjectLink href={github} target="_blank">Go to project <Arrow src={WhiteArrow} alt='external link' /></ProjectLink>
+                    <ProjectLink href={github} target="_blank">Github <Arrow src={WhiteArrow} alt='external link' /></ProjectLink>
                     </div>
                 }
             </TextContainer>
 
             <ImgContainer>
                 {
-                    show && <>
+                    show && <a  href={github} target="_blank" rel='noreferrer'>
                     <ImgColor src={imageColor} />
                     <ImgDuotone src={imageDuotone} />
-
-                    </>
+                    </a>
                 }
             </ImgContainer>
         </EachProjectContainer>
