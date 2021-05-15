@@ -6,7 +6,7 @@ export const ContactContainer = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 860px;
+    height: 855px;
 
     @media screen and (max-width: 480px) {
         height: 520px;

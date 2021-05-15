@@ -7,7 +7,7 @@ import { Nav, NavLogo, NavbarContainer, NavMenu, NavItem, NavLinks, ResumeWrappe
 import PDF from '../../assets/FullStack_WebDev_VeronicaAlcalaVera.pdf'
 
 
-function Navbar() {
+function Navbar({ toggle }) {
 
     const [scrollNav, setScrollNav] = useState(false)
 
@@ -31,7 +31,7 @@ function Navbar() {
         <Nav>
             <NavbarContainer>
                 <NavLogo to='/' onClick={toggleHome}>verónica</NavLogo>
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
