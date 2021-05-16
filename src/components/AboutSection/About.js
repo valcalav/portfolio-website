@@ -4,7 +4,7 @@ import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, 
 import ExternalLink from '../../assets/whiteArrow.png'
 
 import profileImg from '../../assets/profile_duotone.jpg'
-import PDF from '../../assets/FullStack_WebDev_VeronicaAlcalaVera.pdf'
+import PDF from '../../assets/FullStack_Resume.pdf'
 
 function About() {
     return (

@@ -4,7 +4,7 @@ import { animateScroll as scroll } from 'react-scroll'
 
 import { Nav, NavLogo, NavbarContainer, NavMenu, NavItem, NavLinks, ResumeWrapper, ResumeBtn, MobileIcon,  } from './NavbarElements'
 
-import PDF from '../../assets/FullStack_WebDev_VeronicaAlcalaVera.pdf'
+import PDF from '../../assets/FullStack_Resume.pdf'
 
 
 function Navbar({ toggle }) {
