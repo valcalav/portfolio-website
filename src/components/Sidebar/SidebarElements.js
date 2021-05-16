@@ -18,7 +18,8 @@ export const SidebarContainer = styled.aside`
 `
 
 export const CloseIcon = styled(FaTimes)`
-    color: #fff
+    color: #fff;
+    margin: 16px 18px;
 `
 
 export const Icon = styled.div`
@@ -59,17 +60,10 @@ export const SidebarLink = styled(Link)`
     text-decoration: none;
     color: #df91ad;
     cursor: pointer;
+    margin-top: 25%;
 
     &:hover {
         color: df91ad;
         transition: 0.2s ease-in-out;
     }
-`
-
-
-export const Nav3 = styled.div`
-
-`
-export const Nav4 = styled.div`
-
 `

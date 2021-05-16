@@ -28,6 +28,10 @@ export const NavbarContainer = styled.div`
     z-index: 1;
     width: 100%;
     padding: 30px 50px;
+
+    @media screen and (max-width:420px) {
+        padding: 30px 38px; 
+    }
 `
 
 export const NavLogo = styled(Link)`
@@ -41,6 +45,10 @@ export const NavLogo = styled(Link)`
     letter-spacing: 1.4px;
     font-weight: 900;
     height: 66px;
+
+    @media screen and (max-width:420px) {
+        margin-left: 0px;  
+    }
 `
 
 export const MobileIcon = styled.div`
