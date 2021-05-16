@@ -14,7 +14,7 @@ function ProjectDetails({title, technologies, description, imageDuotone, imageCo
         <EachProjectContainer showProject={show}>
             <TextContainer >
             <div >
-                <ProjectTitleFilled showProject={show}>{title}</ProjectTitleFilled> 
+                <ProjectTitleFilled showProject={show} onClick={() => openProject()}>{title}</ProjectTitleFilled> 
                 <ProjectTitleOutlined showProject={show} onClick={() => openProject()}>{title}</ProjectTitleOutlined>
             </div>
                 {
