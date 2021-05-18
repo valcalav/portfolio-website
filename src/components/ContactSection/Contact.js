@@ -10,7 +10,7 @@ function Contact() {
             <ContactWrapper>
             <TopLine>Get in touch</TopLine>
                 <ContactText>If you want to get in touch, talk to me about a job position, project collaboration or just say hello:</ContactText>
-                <Email><Icon />veronica.alcala@gmail.com</Email>
+                <Email>veronica.alcala@gmail.com</Email>
                 <ContactLink href='https://www.linkedin.com/in/veronicaalcalav/' target="_blank">LinkedIn<Icon src={Arrow} /></ContactLink>
                 <ContactLink href='https://github.com/valcalav' target="_blank">GitHub<Icon src={Arrow} /></ContactLink>
             </ContactWrapper>
